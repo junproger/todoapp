@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  background: #000;
+  display: block;
+  color: #fff;
+}
+
+input {
+  display: inline-block;
+  margin: 5px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 360px;
+}
+
+.wrapper, 
+.caption {
+	width: 420px; 
+	margin: 40px auto;
+}
+
+.todoItem {
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.todoItem:hover {
+  background-color: lightgrey;
+  color: #000;
+}
+
+.list {
+margin-left: -40px;
+}
