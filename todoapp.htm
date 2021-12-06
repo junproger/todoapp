@@ -15,9 +15,13 @@
 	<div class="wrapper">
 		<h2 class="caption">Simple ToDo List JQuery</h2>
 			<div id="todoApp">
-				<input type="text" placeholder="Напишите текст и нажмите Enter">
+				<form name="todoform" id="todoform">
+				<input type="text" placeholder="Напишите текст и нажмите OK">
+				<!-- Перевожу input с события keydown на событие onchange -->
+				<input type="submit" name="tdokay" value="OK" id="tdokay">
+				</form>
 					<ul class="list">
-					<!-- Здесь будет список задач -->
+					<!-- Здесь будет выведен список задач -->
 					</ul>
 			</div>
 	</div>
