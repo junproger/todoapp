@@ -31,8 +31,8 @@
 				todoShowTasks();
 				
 		// the function writing to localStorage
-		$('#todoApp input').on('keydown', function (elem) {
-		  if (elem.key != "Enter" || elem.code != "Enter") return;
+		$('#todoApp input').on('change', function (elem) {
+		  // if (elem.key != "Enter" || elem.code != "Enter") return;
 			let number_Id = 0;
 			let lineTodo = elem.target.value;
 			elem.target.value = "";
