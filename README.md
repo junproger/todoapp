@@ -1,5 +1,5 @@
 # todoapp
 Simple ToDo List JQuery
-(Using localStorage) 
-2021.12.06 fix event keydown
-replace event keydown on event onchange
+(Using localStorage)
+
+2022.02.24 fix bug with extract data from local storage
